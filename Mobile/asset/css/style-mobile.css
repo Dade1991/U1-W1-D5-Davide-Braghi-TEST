@@ -9,12 +9,12 @@ body {
   font-size: 1.2em;
   line-height: 1.65;
   color: #393d41;
-  width: 450px;
+  min-width: 450px;
+  max-width: 500px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
-  border: 2px solid black;
 }
 
 h1,
@@ -54,6 +54,10 @@ hr {
   align-items: center;
   margin-top: 35px;
   margin-bottom: 35px;
+}
+
+body {
+  width: 100%;
 }
 
 #header-logo {
@@ -100,7 +104,7 @@ header > div > p {
 }
 
 #section-1 {
-  margin-bottom: 35px;
+  margin-bottom: 70px;
 }
 
 #section-1 h3,
@@ -124,7 +128,7 @@ header > div > p {
 }
 
 #section-2 h2 {
-  padding-top: 35px;
+  padding-top: 50px;
 }
 
 #section-2-quote {
@@ -138,11 +142,12 @@ header > div > p {
 
 #section-2-quote-author-pos {
   font-size: 0.9em;
-  padding-bottom: 35px;
+  padding-bottom: 50px;
 }
 
 #section-3 {
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 #section-3 img {
@@ -170,7 +175,7 @@ footer {
   text-align: center;
   color: white;
   background-color: #25a2c3;
-  padding: 35px 25px 35px 25px;
+  padding: 50px 25px 50px 25px;
 }
 
 footer h2 {
